@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="shortcut icon" href="img/bike_icone.png">
+    <title>Jump Game</title>
+</head>
+
+<body onkeydown="pular()" onmousedown="pular()">
+
+    <p id="aviso"></p>
+
+    <span id="cronometro">
+        Tempo: <span id="minutos">00</span>:<span id="segundos">00</span>:<span id="milisegundos">00</span>
+    </span>
+
+    <div id="jogo">
+        <div id="personagem"></div>
+        <div id="obstaculo"></div>
+        <div id="avenida"></div>
+    </div>
+    
+    <span id="pontuacao">Pontuação: 0</span>
+
+    <script src="js/animacao.js"></script>
+    <script src="js/pontuacao.js"></script>
+    <script src="js/cronometro.js"></script>
+    <script src="js/alertas.js"></script>
+</body>
+
+</html>
