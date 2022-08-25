@@ -10,4 +10,4 @@ Para manipular os códigos presentes neste repositório, você precisará ter:
 - Editor de código-fonte (ex. Visual Studio Code).
 
 Para jogar, basta acessar:
-<https://guilhermecastelo.github.io/jumpgame_beta/>
+<https://guilhermecastelo.github.io/jumpgame/>

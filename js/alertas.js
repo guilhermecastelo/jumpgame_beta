@@ -1,5 +1,6 @@
 let jogo = document.querySelector("#jogo");
 let obstaculo = document.querySelector("#obstaculo");
+let balao_aviso = document.querySelector("#balao-aviso");
 let aviso = document.querySelector("#aviso");
 let avenida = document.querySelector("#avenida");
 let spnCronometro = document.querySelector("#cronometro");
@@ -15,14 +16,12 @@ var testarColisao = setInterval(function () {
 
     if (Esquerdaobstaculo < 60 && Esquerdaobstaculo > 0 && topoPersonagem >= 135) {
         clearInterval(tempo);
-        console.log(spnCronometro.innerText);
-        console.log(spnPontuacao.innerText);
         obstaculo.style.animation = 'none';
         obstaculo.style.left = '60px';
         avenida.style.backgroundImage = "url('img/avenida_parada.png')";
         document.body.onkeydown = '';
         document.body.onmousedown = '';
-        aviso.style.display = 'block';
+        balao_aviso.style.display = 'block';
         aviso.innerHTML = "Você bateu &#128543;<br><a href='index.html'>Reiniciar</a>";
     }
 

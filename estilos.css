@@ -18,7 +18,7 @@ p {
     text-align: center;
 }
 
-#informacoes{
+#informacoes {
     display: flex;
     justify-content: space-between;
     width: 500px;
@@ -29,7 +29,7 @@ p {
     font-size: 12px;
 }
 
-p#aviso {
+#balao-aviso {
     display: none;
     position: fixed;
     border-radius: 5px;
@@ -142,14 +142,22 @@ p#aviso a {
 
 /* CONFIGURAÇÕES PARA TELAS COM MENOS DE 500 PX */
 
-@media(max-width: 500px) {
+@media(max-width: 600px) {
 
-    body{
+    body {
         justify-content: flex-start;
     }
 
-    #jogo, #avenida, #informacoes{
+}
+
+@media(max-width: 500px) {
+
+    #jogo, #avenida, #informacoes {
         width: 400px;
+    }
+
+    #balao-aviso {
+        margin-top: 25px;
     }
 
     @keyframes obstaculo {
@@ -168,7 +176,7 @@ p#aviso a {
 
 @media(max-width: 400px) {
 
-    #jogo, #avenida, #informacoes{
+    #jogo, #avenida, #informacoes {
         width: 300px;
     }
 
