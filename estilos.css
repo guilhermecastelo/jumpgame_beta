@@ -140,24 +140,26 @@ p#aviso a {
     margin-top: 90px;
 }
 
-/* CONFIGURAÇÕES PARA TELAS COM MENOS DE 500 PX */
+/* CONFIGURAÇÕES PARA TELAS COM MENOS DE 700 PX */
 
-@media(max-width: 7000px) {
+@media(max-width: 700px) {
 
     body {
         justify-content: flex-start;
     }
 
+    #balao-aviso {
+        margin-top: 50px;
+    }
+
 }
+
+/* CONFIGURAÇÕES PARA TELAS COM MENOS DE 500 PX */
 
 @media(max-width: 500px) {
 
     #jogo, #avenida, #informacoes {
         width: 400px;
-    }
-
-    #balao-aviso {
-        margin-top: 50px;
     }
 
     @keyframes obstaculo {

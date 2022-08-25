@@ -40,7 +40,7 @@ if (sessionStorage.getItem("bemvindo") == null) {
     avenida.style.backgroundImage = "url('img/avenida_parada.png')";
     document.body.onkeydown = '';
     document.body.onmousedown = '';
-    aviso.style.display = 'block';
+    balao_aviso.style.display = 'block';
     aviso.innerHTML = "Seja bem-vindo(a) &#128516;<br><a href='index.html'>Começar</a>";
 }
 
