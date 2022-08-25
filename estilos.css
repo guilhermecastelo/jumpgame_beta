@@ -148,8 +148,12 @@ p#aviso a {
         justify-content: flex-start;
     }
 
+    #informacoes {
+        margin-top: 15px;
+    }
+
     #balao-aviso {
-        margin-top: 50px;
+        margin-top: 60px;
     }
 
 }
