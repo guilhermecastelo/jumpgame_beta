@@ -1,4 +1,4 @@
-# Jump Game
+# Jump Game (Versão Atualizada - Beta)
 
 ### 📌 Descrição
 Jogo desenvolvido com HTML, CSS e JavaScript.
@@ -10,4 +10,4 @@ Para manipular os códigos presentes neste repositório, você precisará ter:
 - Editor de código-fonte (ex. Visual Studio Code).
 
 Para jogar, basta acessar:
-<https://guilhermecastelo.github.io/jumpgame/>
+<https://guilhermecastelo.github.io/jumpgame_beta/>
