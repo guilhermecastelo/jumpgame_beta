@@ -142,7 +142,7 @@ p#aviso a {
 
 /* CONFIGURAÇÕES PARA TELAS COM MENOS DE 500 PX */
 
-@media(max-width: 600px) {
+@media(max-width: 7000px) {
 
     body {
         justify-content: flex-start;
