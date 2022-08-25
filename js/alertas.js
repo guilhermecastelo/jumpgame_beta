@@ -47,5 +47,5 @@ if (sessionStorage.getItem("bemvindo") == null) {
 
 //  TESTA SE O USUÁRIO ESTÁ UTILIZANDO UM MOBILE, SE SIM, EXIBE UM ALERTA PARA REALIZAR A ATIVAÇÃO DA ROTAÇÃO DE TELA
 if (window.innerWidth < 500) {
-    alert('Parece que você está usando um celular. &#129488;\nAtive a rotação de tela e jogue com o dispositivo na horizontal para ter uma melhor experiência do game. &#129321;');
+    alert('Parece que você está usando um celular. 🧐\nAtive a rotação de tela e jogue com o dispositivo na horizontal para ter uma melhor experiência do game. 😉');
 }

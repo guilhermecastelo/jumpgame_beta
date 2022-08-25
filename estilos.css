@@ -18,10 +18,14 @@ p {
     text-align: center;
 }
 
-#cronometro {
+#informacoes{
+    display: flex;
+    justify-content: space-between;
     width: 500px;
-    height: 20px;
-    text-align: left;
+    height: 25px;
+}
+
+#cronometro, #pontuacao {
     font-size: 12px;
 }
 
@@ -113,7 +117,7 @@ p#aviso a {
     background-size: cover;
     position: relative;
     top: 100px;
-    left: 480px;
+    left: 472px;
     animation: obstaculo 1.3s infinite linear;
     z-index: 1;
 }
@@ -124,7 +128,7 @@ p#aviso a {
     }
 
     100% {
-        left: -10px;
+        left: -5px;
     }
 }
 
@@ -136,17 +140,15 @@ p#aviso a {
     margin-top: 90px;
 }
 
-#pontuacao {
-    width: 500px;
-    height: 20px;
-    text-align: right;
-    font-size: 12px;
-    margin-top: 15px;
-}
+/* CONFIGURAÇÕES PARA TELAS COM MENOS DE 500 PX */
 
 @media(max-width: 500px) {
 
-    #jogo, #avenida, #pontuacao, #cronometro {
+    body{
+        justify-content: flex-start;
+    }
+
+    #jogo, #avenida, #informacoes{
         width: 400px;
     }
 
@@ -156,14 +158,17 @@ p#aviso a {
         }
 
         100% {
-            left: -10px;
+            left: -5px;
         }
     }
+
 }
+
+/* CONFIGURAÇÕES PARA TELAS COM MENOS DE 400 PX */
 
 @media(max-width: 400px) {
 
-    #jogo, #avenida, #pontuacao, #cronometro {
+    #jogo, #avenida, #informacoes{
         width: 300px;
     }
 
@@ -173,7 +178,7 @@ p#aviso a {
         }
 
         100% {
-            left: -10px;
+            left: -5px;
         }
     }
 
