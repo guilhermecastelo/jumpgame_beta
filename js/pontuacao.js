@@ -16,7 +16,7 @@ function pontuacao() {
         if (cont == 1) {
             pontos += 1;
             spnPontuacao.innerHTML = "Pontuação: " + pontos;
-            console.log("Pontuacao " + pontos);
+            //console.log("Pontuacao " + pontos);
         }
 
     } else {
